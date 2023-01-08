@@ -1,7 +1,7 @@
 {
-  "name": "sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ",
-  "description": "A Telegram Bot to generate Telethon and Pyrogram String Session.",
-  "logo": "https://telegra.ph/file/654ddaf472f18b799600b.jpg",
+  "name": "sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ",
+  "description": "A Telegram Bot to generate Telethon and Pyrogram String Sessions.",
+  "logo": "https://telegra.ph/file/dd59e2437b0de95726782.jpg",
   "keywords": [
     "telegram",
     "bot",
@@ -11,7 +11,21 @@
     "buildpacks": [{
     "url": "heroku/python"
   }],
-  "repository": "https://github.com/Mr-covid723/StringGenBot",
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+  "repository": "https://github.com/Starboihacks369/StringGenBot",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
@@ -28,6 +42,11 @@
       "required": true,
       "value": ""
     },
+    "MUST_JOIN": {
+      "description": "Username of a group or channel for which you want to set force sub.(without @)",
+      "required": true,
+      "value": "Best_FriendsFor_Ever"
+    },
     "OWNER_ID": {
       "description": "Telegram id of the person who will known as owner of the bot.",
       "required": true,
@@ -37,11 +56,6 @@
       "description": "Get this value from cloud.mongodb.com",
       "required": true,
       "value": ""
-    },
-    "MUST_JOIN": {
-      "description": "Username of a group or channel for which you want to set force sub.(without @)",
-      "required": true,
-      "value": "Ayrabots"
     },
     "BOT_TOKEN": {
       "description": "Get this value from @BotFather",
