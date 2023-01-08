@@ -7,10 +7,10 @@
 
 
 ### 🥵 sᴛʀɪɴɢ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ
-  <a href="https://github.com/Mr-covid723"><img alt="Website" src="https://img.shields.io/badge/𝐒𝐓𝐀𝐑 𓆩🇽𓆪 𝐁𝐎𝐈-blue"></a>
+  <a href="https://github.com/Its-star-boi"><img alt="Website" src="https://img.shields.io/badge/𝐒𝐓𝐀𝐑 𓆩🇽𓆪 𝐁𝐎𝐈-blue"></a>
  
-[![Stars](https://img.shields.io/github/stars/Mr-covid723/StringGenBot?style=social)](https://github.com/Mr-covid723/StringGenBot/stargazers)
-  [![Forks](https://img.shields.io/github/forks/Mr-covid723/StringGenBot?style=social)](https://github.com/Mr-covid723/StringGenBot/fork)
+[![Stars](https://img.shields.io/github/stars/Its-star-boi/StringGenBot?style=social)](https://github.com/Its-star-boi/StringGenBot/stargazers)
+  [![Forks](https://img.shields.io/github/forks/Its-star-boi/StringGenBot?style=social)](https://github.com/Its-star-boi/StringGenBot/fork)
 
 ### 🛠️ ʟᴀɴɢᴜᴀɢᴇs ᴀɴᴅ ᴛᴏᴏʟs
 
@@ -29,7 +29,7 @@
 
 ### 🚀 ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ
   
-  <p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Mr-covid723/StringGenBot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+  <p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Its-star-boi/StringGenBot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 
 
@@ -54,7 +54,7 @@ Atleast Give A Star and Fork The Repo 🖤
 
 
 ## 💖 ᴄʀᴇᴅɪᴛs
-- » [𝐒𝐓𝐀𝐑 𓆩🇽𓆪 𝐁𝐎𝐈](https://github.com/Mr_covid723)
+- » [𝐒𝐓𝐀𝐑 𓆩🇽𓆪 𝐁𝐎𝐈](https://github.com/Its-star-boi)
 - » [Shivang](https://github.com/ShivangKakkar)
 - » [Dan Tès](https://github.com/delivrance) for [Pyrogram](https://github.com/pyrogram/pyrogram)
 - » [Lonami](https://github.com/LonamiWebs) for [Telethon](https://github.com/LonamiWebs/Telethon)
