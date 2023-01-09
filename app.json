@@ -1,7 +1,7 @@
 {
-  "name": "string session maker bot",
-  "description": "A Telegram Bot to generate Telethon and Pyrogram String Sessions.",
-  "logo": "https://telegra.ph/file/9f31b3a61c4897b297a33.jpg",
+  "name": "candy queen",
+  "description": "Advanced Database Backend Chatbot Based On Pyrogram Userbot",
+  "logo": "https://telegra.ph/file/e5f236d16cad73e4abe20.jpg",
   "keywords": [
     "telegram",
     "bot",
@@ -9,36 +9,26 @@
     "pyrogram"
   ],
     "env": {
-    "API_ID": {
-      "description": "Get this value from my.telegram.org/apps.",
-      "required": true,
-      "value": ""
-    },
-    "API_HASH": {
-      "description": "Get this value from my.telegram.org/apps.",
-      "required": true,
-      "value": ""
-    },
-    "OWNER_ID": {
-      "description": "Telegram id of the person who will known as owner of the bot.",
-      "required": true,
-      "value": ""
-    },
-    "MONGO_DB_URI" {
-      "description": "Get this value from cloud.mongodb.com",
-      "required": true,
-      "value": ""
-    },
-    "MUST_JOIN": {
-      "description": "Username of a group or channel for which you want to set force sub.(without @)",
-      "required": true,
-      "value": "Best_FriendsFor_Ever"
-    },
-    "BOT_TOKEN": {
-      "description": "Get this value from @BotFather",
-      "required": true,
-      "value": ""
-      }
+        "BOT_TOKEN": {
+            "description": "Pyrogram string session get it from @STRING_SESSION_MAKER_BOT",
+            "required": true
+        },        
+        "MONGO_URL": {
+            "description": "mongo db url here",
+            "required": true
+        },
+        "API_ID": {
+            "description": "telegram api id here",
+            "required": true
+        },
+        "OWNER_ID": {
+            "description": "Telegram id of the person who will known as owner of the bot.",
+            "required": true
+        }, 
+        "API_HASH": {
+            "description": "telegram api hash here",
+            "required": true
+        }
     },
     "addons": [
         {
