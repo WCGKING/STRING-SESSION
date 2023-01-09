@@ -11,7 +11,7 @@
     "buildpacks": [{
     "url": "heroku/python"
   }],
-  "repository": "https://github.com/Its-star_boi/StringGenBot",
+  "repository": "https://github.com/Mr-covid723/StringGenBot",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
@@ -41,12 +41,16 @@
     "MUST_JOIN": {
       "description": "Username of a group or channel for which you want to set force sub.(without @)",
       "required": true,
-      "value": "DevilsHeavenMF"
+      "value": "Ayrabots"
     },
     "BOT_TOKEN": {
       "description": "Get this value from @BotFather",
       "required": true,
       "value": ""
     }
-  }
+    "addons": [
+        {
+            "plan": "heroku-postgresql"
+        }
+    ]
 }
