@@ -10,9 +10,13 @@
   ],
     "env": {
         "BOT_TOKEN": {
-            "description": "Pyrogram string session get it from @STRING_SESSION_MAKER_BOT",
+            "description": "Get this value from @BotFather",
             "required": true
-        },        
+        },  
+        MUST_JOIN": {
+            "description": "Username of a group or channel for which you want to set force sub.(without @)",
+            "required": true,      
+        }, 
         "MONGO_URL": {
             "description": "mongo db url here",
             "required": true
