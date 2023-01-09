@@ -24,7 +24,7 @@ Mᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ : [𝐒𝐓𝐀𝐑 𓆩🇽𓆪 𝐁𝐎𝐈](t
                     InlineKeyboardButton(text="🙄 ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ 🙄", callback_data="generate")
                 ],
                 [
-                    InlineKeyboardButton("❣️ sᴏᴜʀᴄᴇ ❣️", url="https://t.me/Best_FriendsFor_Ever),
+                    InlineKeyboardButton("❣️ sᴏᴜʀᴄᴇ ❣️", url="https://t.me/Best_FriendsFor_Ever"),
                     InlineKeyboardButton("🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", user_id=OWNER_ID)
                 ]
             ]
