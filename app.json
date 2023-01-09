@@ -15,7 +15,7 @@
         },  
         "MUST_JOIN": {
             "description": "Username of a group or channel for which you want to set force sub.(without @)",
-            "required": true,      
+            "required": true      
         }, 
         "MONGO_URL": {
             "description": "mongo db url here",
