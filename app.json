@@ -9,11 +9,6 @@
     "pyrogram"
   ],
     "env": {
-        "ENVIRONMENT": {
-      "description": "Don't change ANYTHING.",
-      "required": true,
-      "value": "ANYTHING"
-    },
     "API_ID": {
       "description": "Get this value from my.telegram.org/apps.",
       "required": true,
