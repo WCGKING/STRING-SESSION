@@ -1,6 +1,8 @@
 <p align="center">
   <img src="https://telegra.ph/file/654ddaf472f18b799600b.jpg" alt="StringGen">
 </p>
+## ʀᴇᴘᴏ sᴛᴀᴛs
+<a href="https://github.com/its-star-boi/StringGenBot"><img src="https://github-readme-stats.vercel.app/api/pin/?username=its-star-boi&repo=StringGenBot&theme=chartreuse-dark"></a>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
