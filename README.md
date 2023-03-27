@@ -1,15 +1,15 @@
 <p align="center">
-  <img src="https://telegra.ph/file/654ddaf472f18b799600b.jpg" alt="StringGen">
+  <img src="https://te.legra.ph/file/b5867dcd770eb171eb930.jpg" alt="StringGen">
 </p>
 ## ʀᴇᴘᴏ sᴛᴀᴛs
-<a href="https://github.com/its-star-boi/StringGenBot"><img src="https://github-readme-stats.vercel.app/api/pin/?username=its-star-boi&repo=StringGenBot&theme=chartreuse-dark"></a>
+<a href="https://github.com/Rajpomane/POISON-"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Rajpomane&repo=POISON-&theme=chartreuse-dark"></a>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 
 ### 🥵 sᴛʀɪɴɢ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ
-  <a href="https://github.com/Its-star-boi"><img alt="Website" src="https://img.shields.io/badge/𝐒𝐓𝐀𝐑 𓆩🇽𓆪 𝐁𝐎𝐈-blue"></a>
+  <a href="https://github.com/Rajpomane"><img alt="Website" src="https://img.shields.io/badge/『𝗣𝗢𝗜𝗦𝗢𝗡』| ͢ ̶ͥ ̶ ̶ͣ ͓ ̶ͫ𝐃αиgєяουѕ𓄂⃝🔱𝐅ιgнτєя-blue"></a>
  
 [![Stars](https://img.shields.io/github/stars/Its-star-boi/StringGenBot?style=social)](https://github.com/Its-star-boi/StringGenBot/stargazers)
   [![Forks](https://img.shields.io/github/forks/Its-star-boi/StringGenBot?style=social)](https://github.com/Its-star-boi/StringGenBot/fork)
@@ -31,7 +31,7 @@
 
 ### 🚀 ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ
   
-  <p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Its-star-boi/StringGenBot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+  <p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Rajpomane/POISON-"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 
 
