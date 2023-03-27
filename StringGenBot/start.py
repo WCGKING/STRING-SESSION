@@ -15,17 +15,18 @@ async def start(bot: Client, msg: Message):
         text=f"""Hᴇʏ {msg.from_user.mention},
 
 Tʜɪs ɪs {me2},
-Aɴ ᴏᴘᴇɴ sᴏᴜʀᴄᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴩʏʀᴏɢʀᴀᴍ.
+𝐈𝐍𝐓𝐙𝐀𝐑 𝐍𝐀𝐇𝐈 𝐇𝐄 𝐊𝐈𝐒𝐈 𝐑𝐀𝐍𝐈 𝐊𝐀 𝐀𝐁 𝐇𝐀𝐌 𝐁𝐀𝐓𝐀𝐘𝐄𝐍𝐆𝐄 𝐑𝐔𝐓𝐁𝐀 𝐊𝐘𝐀 𝐇𝐎𝐓𝐀 𝐇𝐄 𝐉𝐀𝐕𝐀𝐍𝐈 𝐊𝐀 ..!! 🚬🦋💫
+ᴊɪsᴋᴇ ᴊᴀɪʙ ᴍᴇ ɢᴀɴᴅʜɪ  ᴄʜᴏʀɪ ᴜsᴋᴇ ᴘʏᴀᴀʀ ᴍᴇ ᴀᴀɴᴅʜɪ 🖤.
 
-Mᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ : [𝐒𝐓𝐀𝐑 𓆩🇽𓆪 𝐁𝐎𝐈](tg://user?id={OWNER_ID}) !""",
+Mᴀᴅᴇ ᴡɪᴛʜ 🚩 ʙʏ : [『𝗣𝗢𝗜𝗦𝗢𝗡』| ͢ ̶ͥ ̶ ̶ͣ ͓ ̶ͫ𝐃αиgєяουѕ𓄂⃝🔱𝐅ιgнτєя](tg://user?id={OWNER_ID}) !""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text="🙄 ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ 🙄", callback_data="generate")
+                    InlineKeyboardButton(text="🚩 ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ 🚩", callback_data="generate")
                 ],
                 [
-                    InlineKeyboardButton("❣️ sᴏᴜʀᴄᴇ ❣️", url="https://t.me/Best_FriendsFor_Ever"),
-                    InlineKeyboardButton("🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", user_id=OWNER_ID)
+                    InlineKeyboardButton("🚩 sᴏᴜʀᴄᴇ 🚩", url="https://t.me/LOVERS_POINTT"),
+                    InlineKeyboardButton("🚩 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🚩", user_id=OWNER_ID)
                 ]
             ]
         ),
