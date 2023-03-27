@@ -34,24 +34,24 @@ import config
 
 
 
-ask_ques = "**» ᴩʟᴇᴀsᴇ ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴩʏᴛʜᴏɴ ʟɪʙʀᴀʀʏ ғᴏʀ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ sᴛʀɪɴɢ :**"
+ask_ques = "**» ᴘᴀʏʀᴏ ʜɪ ʟᴇ ʟᴇ ᴛᴇʟᴇᴛʜᴏɴ sᴇ ᴛᴇʀɪ ɢᴀᴍɴᴅ ʟᴀɢ sᴀᴋᴛɪ ʜᴇ :**"
 buttons_ques = [
     [
-        InlineKeyboardButton("ᴩʏʀᴏɢʀᴀᴍ", callback_data="pyrogram1"),
-        InlineKeyboardButton("ᴩʏʀᴏɢʀᴀᴍ ᴠ2", callback_data="pyrogram"),
+        InlineKeyboardButton("🚩ᴩʏʀᴏɢʀᴀᴍ🚩", callback_data="pyrogram1"),
+        InlineKeyboardButton("🚩ᴩʏʀᴏɢʀᴀᴍ ᴠ2🚩", callback_data="pyrogram"),
     ],
     [
-        InlineKeyboardButton("ᴛᴇʟᴇᴛʜᴏɴ", callback_data="telethon"),
+        InlineKeyboardButton("🚩ᴛᴇʟᴇᴛʜᴏɴ🚩", callback_data="telethon"),
     ],
     [
-        InlineKeyboardButton("ᴩʏʀᴏɢʀᴀᴍ ʙᴏᴛ", callback_data="pyrogram_bot"),
-        InlineKeyboardButton("ᴛᴇʟᴇᴛʜᴏɴ ʙᴏᴛ", callback_data="telethon_bot"),
+        InlineKeyboardButton("🚩ᴩʏʀᴏɢʀᴀᴍ ʙᴏᴛ🚩", callback_data="pyrogram_bot"),
+        InlineKeyboardButton("🚩ᴛᴇʟᴇᴛʜᴏɴ ʙᴏᴛ🚩", callback_data="telethon_bot"),
     ],
 ]
 
 gen_button = [
     [
-        InlineKeyboardButton(text="🙄 ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ 🙄", callback_data="generate")
+        InlineKeyboardButton(text="🚩 Gᴇɴʀᴀᴛᴇ sᴇssᴏɴ 🚩", callback_data="generate")
     ]
 ]
 
