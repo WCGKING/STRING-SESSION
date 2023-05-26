@@ -37,21 +37,21 @@ import config
 ask_ques = "**» ᴘᴀʏʀᴏ ʜɪ ʟᴇ ʟᴇ ᴛᴇʟᴇᴛʜᴏɴ sᴇ ᴛᴇʀɪ ɢᴀᴍɴᴅ ʟᴀɢ sᴀᴋᴛɪ ʜᴇ :**"
 buttons_ques = [
     [
-        InlineKeyboardButton("🚩ᴩʏʀᴏɢʀᴀᴍ🚩", callback_data="pyrogram1"),
-        InlineKeyboardButton("🚩ᴩʏʀᴏɢʀᴀᴍ ᴠ2🚩", callback_data="pyrogram"),
+        InlineKeyboardButton("😎ᴩʏʀᴏɢʀᴀᴍ😎", callback_data="pyrogram1"),
+        InlineKeyboardButton("🌹ᴩʏʀᴏɢʀᴀᴍ ᴠ2🌹", callback_data="pyrogram"),
     ],
     [
-        InlineKeyboardButton("🚩ᴛᴇʟᴇᴛʜᴏɴ🚩", callback_data="telethon"),
+        InlineKeyboardButton("✨ᴛᴇʟᴇᴛʜᴏɴ✨", callback_data="telethon"),
     ],
     [
-        InlineKeyboardButton("🚩ᴩʏʀᴏɢʀᴀᴍ ʙᴏᴛ🚩", callback_data="pyrogram_bot"),
-        InlineKeyboardButton("🚩ᴛᴇʟᴇᴛʜᴏɴ ʙᴏᴛ🚩", callback_data="telethon_bot"),
+        InlineKeyboardButton("👀ᴩʏʀᴏɢʀᴀᴍ ʙᴏᴛ👀", callback_data="pyrogram_bot"),
+        InlineKeyboardButton("🎉ᴛᴇʟᴇᴛʜᴏɴ ʙᴏᴛ🎉", callback_data="telethon_bot"),
     ],
 ]
 
 gen_button = [
     [
-        InlineKeyboardButton(text="🚩 Gᴇɴʀᴀᴛᴇ sᴇssᴏɴ 🚩", callback_data="generate")
+        InlineKeyboardButton(text="😍 Gᴇɴʀᴀᴛᴇ sᴇssᴏɴ 😍", callback_data="generate")
     ]
 ]
 
@@ -174,7 +174,7 @@ async def generate_session(bot: Client, msg: Message, telethon=False, old_pyro: 
         string_session = client.session.save()
     else:
         string_session = await client.export_session_string()
-    text = f"**ᴛʜɪs ɪs ʏᴏᴜʀ {ty} sᴛʀɪɴɢ sᴇssɪᴏɴ** \n\n`{string_session}` \n\n**ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ :** @STRING_SESSION_MAKER_BOT\n🍒 **ɴᴏᴛᴇ :** ᴅᴏɴ'ᴛ sʜᴀʀᴇ ɪᴛ ᴡɪᴛʜ ʏᴏᴜʀ ɢɪʀʟғʀɪᴇɴᴅ 🍑 ᴀɴᴅ ᴅᴏɴ'ᴛ ғᴏʀɢᴇᴛ ᴛᴏ ᴊᴏɪɴ @Best_FriendsFor_Ever 🥺"
+    text = f"**ᴛʜɪs ɪs ʏᴏᴜʀ {ty} sᴛʀɪɴɢ sᴇssɪᴏɴ** \n\n`{string_session}` \n\n**ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ :** @BRANDEDSTRINGSESSION_BOT\n🍒 **ɴᴏᴛᴇ :** ᴅᴏɴ'ᴛ sʜᴀʀᴇ ɪᴛ ᴡɪᴛʜ ʏᴏᴜʀ ɢɪʀʟғʀɪᴇɴᴅ 🍑 ᴀɴᴅ ᴅᴏɴ'ᴛ ғᴏʀɢᴇᴛ ᴛᴏ ᴊᴏɪɴ @BRANDED_LINK 🥺"
     try:
         if not is_bot:
             await client.send_message("me", text)
