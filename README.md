@@ -1,3 +1,4 @@
+<h1 align="center"><b>❤️ BRANDED STRING SESSION ❤️</b></h1>
 <p align="center">
   <img src="https://te.legra.ph/file/90e709718e7dac641aaf7.jpg" alt="StringGen">
 </p>
