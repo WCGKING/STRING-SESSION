@@ -9,7 +9,7 @@
 
 
 ### 🥵 sᴛʀɪɴɢ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ
-  <a href="https://github.com/WCGKING"><img alt="Website" src="https://img.shields.io/badge/ 𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𓆩🇽𓆪 𝗞𝗜𝗡𝗚"></a>
+  <a href="https://github.com/WCGKING"><img alt="Website" src="https://img.shields.io/badge/𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𓆩🇽𓆪 𝗞𝗜𝗡𝗚"></a>
  
 [![𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𓆩🇽𓆪 𝗞𝗜𝗡𝗚](https://img.shields.io/github.com/WCGKING/STRING-SESSION?style=social)](https://github.com/WCGKING/STRING-SESSION/stargazers)
   [![Forks](https://img.shields.io/github/forks/WCGKING/STRING-SESSION?style=social)](https://github.com/WCGKING/STRING-SESSION/fork)
