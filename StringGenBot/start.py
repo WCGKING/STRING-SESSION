@@ -25,7 +25,7 @@ Mᴀᴅᴇ ᴡɪᴛʜ ❤ ʙʏ : [𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𓆩🇽𓆪 𝗞
                     InlineKeyboardButton(text="✌ ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ ✌", callback_data="generate")
                 ],
                 [
-                    InlineKeyboardButton("😊 sᴏᴜʀᴄᴇ 😊", url="https://t.me/BRANDED_LINK"),
+                    InlineKeyboardButton("😊 sᴏᴜʀᴄᴇ 😊", url="https://t.me/BRANDED_PAID_CC"),
                     InlineKeyboardButton("🙌 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🙌", user_id=OWNER_ID)
                 ]
             ]
