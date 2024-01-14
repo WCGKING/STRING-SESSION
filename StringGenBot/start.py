@@ -1,34 +1,12 @@
-from pyrogram import Client, filters
+from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 
-from config import OWNER_ID
 
-
-def filter(cmd: str):
-    return filters.private & filters.incoming & filters.command(cmd)
-
-@Client.on_message(filter("start"))
-async def start(bot: Client, msg: Message):
-    me2 = (await bot.get_me()).mention
-    await bot.send_message(
-        chat_id=msg.chat.id,
-        text=f"""Hᴇʏ {msg.from_user.mention},
-
-Tʜɪs ɪs {me2},
-Aɴ ᴏᴘᴇɴ sᴏᴜʀᴄᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴩʏʀᴏɢʀᴀᴍ.
-ᴊɪsᴋᴇ ᴊᴀɪʙ ᴍᴇ ɢᴀɴᴅʜɪ  ᴄʜᴏʀɪ ᴜsᴋᴇ ᴘʏᴀᴀʀ ᴍᴇ ᴀᴀɴᴅʜɪ 🖤.
-
-Mᴀᴅᴇ ᴡɪᴛʜ ❤ ʙʏ : [ʙᴀʀɴᴅᴇᴅ ᴋɪɴɢ]tg://user?id={OWNER_ID}) !""",
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(text="ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ", callback_data="generate")
-                ],
-                [
-                    InlineKeyboardButton("sᴏᴜʀᴄᴇ", url="https://t.me/BRANDED_PAID_CC"),
-                    InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴩᴇʀ", user_id=OWNER_ID)
-                ]
-            ]
-        ),
+@Client.on_message(filters.command("start") & filters.private & filters.incoming)
+async def f_start(_, message: Message):
+    await message.reply_text(
+        text=f"ʜᴇʏ {message.from_user.first_name},\n\n๏ ᴛʜɪs ɪs {Anony.mention},\nAɴ ᴏᴘᴇɴ sᴏᴜʀᴄᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴩʏʀᴏɢʀᴀᴍ.",
+        reply_markup=keyboard,
         disable_web_page_preview=True,
     )
+    await add_served_user(message.from_user.id)
