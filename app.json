@@ -1,5 +1,5 @@
 {
-  "name": "BRANDED STRING SESSION BOT",
+  "name": "LADLI STRING SESSION BOT",
   "description": "A Telegram Bot to generate Telethon and Pyrogram String Sessions.",
   "logo": "https://te.legra.ph/file/90e709718e7dac641aaf7.jpg",
   "keywords": [
@@ -26,7 +26,7 @@
             "required": true
         },
         "OWNER_ID": {
-            "description": "Telegram id of the person who will known as owner of the bot.",
+            "description": "Telegram id of the person who will known as owner of the bot.",6708805293
             "required": true
         }, 
         "API_HASH": {
