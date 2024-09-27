@@ -1,5 +1,5 @@
 dnspython==2.2.1
-motor==3.1.1
+motor
 psutil==5.9.4
 pyromod==1.5
 pyrogram==2.0.106
