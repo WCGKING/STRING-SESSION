@@ -1,43 +1,48 @@
 {
-  "name": "BRANDED STRING SESSION BOT",
-  "description": "A Telegram Bot to generate Telethon and Pyrogram String Sessions.",
-  "logo": "https://te.legra.ph/file/90e709718e7dac641aaf7.jpg",
-  "keywords": [
-     "telegram",
-    "bot",
-    "python",
-    "pyrogram",
-    "telethon"
-  ],
+    "name": "String Gen Bot",
+    "description": "A Telegram Bot to generate Telethon and Pyrogram String Session.",
+    "logo": "https://telegra.ph/file/654ddaf472f18b799600b.jpg",
+    "keywords": [
+        "python3",
+        "telegram",
+        "session",
+        "stringbot",
+        "telegram-bot",
+        "pyrogram",
+        "telethon"
+    ],
+    "repository": "https://github.com/WCGKING/StringGenBot",
     "env": {
-        "BOT_TOKEN": {
-            "description": "Get this value from @BotFather",
-            "required": true
-        },  
-        "MUST_JOIN": {
-            "description": "Username of a group or channel for which you want to set force sub.(without @)",
-            "required": true      
-        }, 
-        "MONGO_URL": {
-            "description": "mongo db url here",
-            "required": true
-        },
-        "API_ID": {
-            "description": "telegram api id here",
-            "required": true
-        },
-        "OWNER_ID": {
-            "description": "Telegram id of the person who will known as owner of the bot.",
-            "required": true
-        }, 
-        "API_HASH": {
-            "description": "telegram api hash here",
-            "required": true
-        }
+      "API_ID": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "A Bot's token from Botfather",
+        "value": "",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "Fill your user id here. (Must be integer)",
+        "value": "",
+        "required": true
+      },
+      "MONGO_DB_URI": {
+        "description": "Get this value from cloud.mongodb.com",
+        "value": "",
+        "required": true
+      }
     },
-    "addons": [
-        {
-            "plan": "heroku-postgresql"
-        }
-    ]
-}
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          }
+      ],
+      "stack": "container"
+  }
